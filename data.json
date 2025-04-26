@@ -1,0 +1,702 @@
+{
+  "students": [
+    {
+      "matricule": 45612,
+      "nom": "Djoumessi",
+      "prenom": "Claudia",
+      "email": "claudia80@gmail.com",
+      "classe": "GL B",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "matricule": 37894,
+      "nom": "Kamga",
+      "prenom": "Alain",
+      "email": "alain@gmail.com",
+      "classe": "GL B"
+    },
+    {
+      "id": "3",
+      "matricule": 56218,
+      "nom": "Tchoupo",
+      "prenom": "Elise",
+      "email": "elise@gmail.com",
+      "classe": "GL A"
+    },
+    {
+      "id": "4",
+      "matricule": 29076,
+      "nom": "Nganso",
+      "prenom": "Patrick",
+      "email": "patrick@gmail.com",
+      "classe": "GL B"
+    },
+    {
+      "id": "5",
+      "matricule": 67321,
+      "nom": "Mbarga",
+      "prenom": "Sophie",
+      "email": "sophie@gmail.com",
+      "classe": "GL A"
+    },
+    {
+      "id": "5",
+      "matricule": 41235,
+      "nom": "Fouda",
+      "prenom": "Christian",
+      "email": "christian@gmail.com",
+      "classe": "GL B"
+    },
+    {
+      "id": "6",
+      "matricule": 53497,
+      "nom": "Atangana",
+      "prenom": "Marie",
+      "email": "marie@gmail.com",
+      "classe": "GL A"
+    },
+    {
+      "id": "8",
+      "matricule": 34567,
+      "nom": "Mendouga",
+      "prenom": "Carole",
+      "email": "carole@gmail.com",
+      "classe": "GL A"
+    },
+    {
+      "id": "9",
+      "matricule": 62581,
+      "nom": "Tamba",
+      "prenom": "Serge",
+      "email": "serge@gmail.com",
+      "classe": "GL B"
+    },
+    {
+      "id": "10",
+      "matricule": 125,
+      "nom": "Idris",
+      "prenom": "Feudjio",
+      "email": "idris@gmail.com",
+      "classe": "GL A"
+    },
+    {
+      "id": "86cc",
+      "matricule": 698,
+      "nom": "pichou",
+      "prenom": "steph",
+      "email": "stephprad237@gmail.com",
+      "classe": "GLB"
+    }
+  ],
+  "enseignants": [
+    {
+      "id": "1",
+      "nom": "Mbarga",
+      "prenom": "Jean-Paul",
+      "titre": "Professeur Titulaire",
+      "discipline": "Mathématiques Appliquées",
+      "departement": "Mathématiques et Informatique",
+      "faculte": "Faculté des Sciences",
+      "cours": [
+        "Analyse Numérique (L2)",
+        "Calcul Différentiel (L3)",
+        "Équations Différentielles (M1)",
+        "Séminaire de Recherche (M2)"
+      ],
+      "salle": "Bloc A, Bureau 104",
+      "horaires": {
+        "lundi": "8h00-10h00 (Amphi 300), 14h00-16h00 (Salle TD2)",
+        "mercredi": "10h00-12h00 (Amphi 300), 14h00-17h00 (Labo Math)",
+        "jeudi": "8h00-10h00 (Salle TD5)"
+      },
+      "email": "jp.mbarga@univ-yaounde1.cm",
+      "telephone": "+237 678453210",
+      "grade": "Professeur de Classe Exceptionnelle",
+      "statut": "Fonctionnaire",
+      "dateEntree": "15/09/2002",
+      "responsabilites": [
+        "Directeur du Laboratoire de Modélisation Mathématique",
+        "Membre du Conseil Scientifique"
+      ],
+      "permanence": "Mardi 13h00-15h00, Vendredi 10h00-12h00",
+      "recherche": "Équations aux dérivées partielles, Modélisation mathématique des systèmes complexes",
+      "publications": 47
+    },
+    {
+      "id": "2",
+      "nom": "Ngo Biyack",
+      "prenom": "Pauline",
+      "titre": "Maître de Conférences",
+      "discipline": "Biologie Moléculaire",
+      "departement": "Sciences Biologiques",
+      "faculte": "Faculté des Sciences",
+      "cours": [
+        "Biologie Cellulaire (L1)",
+        "Génétique Moléculaire (L3)",
+        "Biotechnologie (M1)",
+        "Méthodes d'Analyse en Biologie Moléculaire (M2)"
+      ],
+      "salle": "Bloc B, Bureau 215",
+      "horaires": {
+        "lundi": "14h00-16h00 (Labo Bio)",
+        "mardi": "8h00-12h00 (Amphi 200), 14h00-16h00 (Labo Bio)",
+        "jeudi": "10h00-12h00 (Salle TD3), 14h00-17h00 (Labo Bio)"
+      },
+      "email": "p.ngobiyack@univ-yaounde1.cm",
+      "telephone": "+237 699876543",
+      "grade": "Maître de Conférences",
+      "statut": "Fonctionnaire",
+      "dateEntree": "22/09/2008",
+      "responsabilites": [
+        "Responsable Master Biologie Moléculaire",
+        "Coordinatrice Laboratoire de Biologie Cellulaire"
+      ],
+      "permanence": "Mercredi 9h00-12h00",
+      "recherche": "Génomique fonctionnelle, Maladies infectieuses tropicales",
+      "publications": 32
+    },
+    {
+      "id": "3",
+      "nom": "Atangana",
+      "prenom": "Robert",
+      "titre": "Professeur Associé",
+      "discipline": "Histoire Contemporaine",
+      "departement": "Histoire",
+      "faculte": "Faculté des Arts, Lettres et Sciences Humaines (FALSH)",
+      "cours": [
+        "Histoire de l'Afrique Contemporaine (L2)",
+        "Historiographie (L3)",
+        "Colonisation et Décolonisation (M1)",
+        "Méthodologie de la Recherche Historique (M2)"
+      ],
+      "salle": "Bloc C, Bureau 312",
+      "horaires": {
+        "mardi": "8h00-12h00 (Amphi 350)",
+        "mercredi": "14h00-17h00 (Salle TD7)",
+        "vendredi": "8h00-10h00 (Amphi 350), 14h00-16h00 (Salle TD8)"
+      },
+      "email": "r.atangana@univ-yaounde1.cm",
+      "telephone": "+237 655432109",
+      "grade": "Professeur",
+      "statut": "Fonctionnaire",
+      "dateEntree": "05/09/2000",
+      "responsabilites": [
+        "Chef du Département d'Histoire",
+        "Directeur du Centre d'Études Africaines"
+      ],
+      "permanence": "Lundi 14h00-17h00, Jeudi 9h00-12h00",
+      "recherche": "Histoire politique du Cameroun, Relations internationales africaines",
+      "publications": 65
+    },
+    {
+      "id": "4",
+      "nom": "Fouda",
+      "prenom": "Marie-Claire",
+      "titre": "Chargée de Cours",
+      "discipline": "Linguistique Anglaise",
+      "departement": "Langues Étrangères Appliquées",
+      "faculte": "Faculté des Arts, Lettres et Sciences Humaines (FALSH)",
+      "cours": [
+        "Grammaire Anglaise Avancée (L1)",
+        "Sociolinguistique (L3)",
+        "Analyse du Discours (M1)",
+        "Linguistique Contrastive (M2)"
+      ],
+      "salle": "Bloc D, Bureau 108",
+      "horaires": {
+        "lundi": "10h00-12h00 (Salle TD12)",
+        "mardi": "14h00-16h00 (Salle TD9)",
+        "mercredi": "8h00-10h00 (Amphi 150)",
+        "jeudi": "10h00-12h00 (Amphi 150), 14h00-16h00 (Salle TD12)"
+      },
+      "email": "mc.fouda@univ-yaounde1.cm",
+      "telephone": "+237 670123456",
+      "grade": "Chargée de Cours",
+      "statut": "Fonctionnaire",
+      "dateEntree": "10/09/2010",
+      "responsabilites": [
+        "Coordinatrice du Centre de Langues",
+        "Responsable des Relations Internationales"
+      ],
+      "permanence": "Vendredi 10h00-13h00",
+      "recherche": "Bilinguisme, Politique linguistique au Cameroun, Études des créoles",
+      "publications": 18
+    },
+    {
+      "id": "5",
+      "nom": "Essomba",
+      "prenom": "Pierre",
+      "titre": "Professeur Titulaire",
+      "discipline": "Physique Quantique",
+      "departement": "Physique",
+      "faculte": "Faculté des Sciences",
+      "cours": [
+        "Mécanique Quantique (L3)",
+        "Physique Nucléaire (M1)",
+        "Physique des Particules (M2)",
+        "Séminaire Doctoral (D)"
+      ],
+      "salle": "Bloc A, Bureau 220",
+      "horaires": {
+        "lundi": "8h00-10h00 (Amphi 400)",
+        "mardi": "10h00-12h00 (Labo Physique)",
+        "mercredi": "14h00-17h00 (Labo Physique)",
+        "vendredi": "8h00-10h00 (Amphi 400), 14h00-16h00 (Salle TD1)"
+      },
+      "email": "p.essomba@univ-yaounde1.cm",
+      "telephone": "+237 694567890",
+      "grade": "Professeur de Classe Exceptionnelle",
+      "statut": "Fonctionnaire",
+      "dateEntree": "12/09/1998",
+      "responsabilites": [
+        "Directeur de l'École Doctorale en Sciences Physiques",
+        "Membre du Conseil d'Administration"
+      ],
+      "permanence": "Jeudi 14h00-17h00",
+      "recherche": "Interactions fondamentales, Physique théorique",
+      "publications": 78
+    },
+    {
+      "id": "6",
+      "nom": "Nkoulou",
+      "prenom": "Thomas",
+      "titre": "Maître-Assistant",
+      "discipline": "Sciences du Sport",
+      "departement": "STAPS (Sciences et Techniques des Activités Physiques et Sportives)",
+      "faculte": "Institut National de la Jeunesse et des Sports (INJS)",
+      "cours": [
+        "Physiologie de l'Effort (L2)",
+        "Traumatologie Sportive (L3)",
+        "Méthodes d'Entraînement (M1)",
+        "Gestion des Infrastructures Sportives (M2)"
+      ],
+      "salle": "INJS, Bureau 105",
+      "horaires": {
+        "lundi": "8h00-12h00 (Terrain)",
+        "mercredi": "8h00-12h00 (Amphi INJS), 14h00-16h00 (Salle de musculation)",
+        "jeudi": "14h00-17h00 (Terrain)",
+        "vendredi": "10h00-12h00 (Salle TD INJS)"
+      },
+      "email": "t.nkoulou@injs.cm",
+      "telephone": "+237 677889900",
+      "grade": "Maître-Assistant",
+      "statut": "Fonctionnaire",
+      "dateEntree": "20/09/2011",
+      "responsabilites": [
+        "Directeur des Sports Universitaires",
+        "Sélectionneur Équipe Universitaire de Football"
+      ],
+      "permanence": "Mardi 9h00-12h00",
+      "recherche": "Performance sportive, Réhabilitation post-traumatique",
+      "publications": 15
+    },
+    {
+      "id": "7",
+      "nom": "Meka",
+      "prenom": "Françoise",
+      "titre": "Professeure Associée",
+      "discipline": "Littérature Francophone",
+      "departement": "Lettres Modernes Françaises",
+      "faculte": "Faculté des Arts, Lettres et Sciences Humaines (FALSH)",
+      "cours": [
+        "Introduction à la Littérature (L1)",
+        "Littérature Africaine Francophone (L3)",
+        "Poétique et Stylistique (M1)",
+        "Séminaire de Recherche Littéraire (M2)"
+      ],
+      "salle": "Bloc C, Bureau 225",
+      "horaires": {
+        "lundi": "10h00-12h00 (Amphi 250)",
+        "mardi": "14h00-16h00 (Salle TD6)",
+        "mercredi": "8h00-10h00 (Amphi 250), 14h00-16h00 (Salle TD6)",
+        "jeudi": "10h00-12h00 (Bibliothèque FALSH)"
+      },
+      "email": "f.meka@univ-yaounde1.cm",
+      "telephone": "+237 651234567",
+      "grade": "Professeur",
+      "statut": "Fonctionnaire",
+      "dateEntree": "03/09/2003",
+      "responsabilites": [
+        "Directrice du Centre d'Études Littéraires",
+        "Responsable Master Littératures Francophones"
+      ],
+      "permanence": "Vendredi 14h00-17h00",
+      "recherche": "Littérature camerounaise, Études postcoloniales, Écriture féminine",
+      "publications": 42
+    },
+    {
+      "id": "8",
+      "nom": "Kamga",
+      "prenom": "Emmanuel",
+      "titre": "Chargé de Cours",
+      "discipline": "Informatique",
+      "departement": "Mathématiques et Informatique",
+      "faculte": "Faculté des Sciences",
+      "cours": [
+        "Programmation Orientée Objet (L2)",
+        "Bases de Données Avancées (L3)",
+        "Intelligence Artificielle (M1)",
+        "Sécurité Informatique (M2)"
+      ],
+      "salle": "Bloc A, Bureau 118",
+      "horaires": {
+        "lundi": "14h00-17h00 (Labo Info)",
+        "mardi": "8h00-10h00 (Amphi 300), 14h00-16h00 (Labo Info)",
+        "jeudi": "8h00-10h00 (Amphi 300), 10h00-12h00 (Labo Info)",
+        "vendredi": "14h00-16h00 (Salle TD4)"
+      },
+      "email": "e.kamga@univ-yaounde1.cm",
+      "telephone": "+237 698765432",
+      "grade": "Chargé de Cours",
+      "statut": "Fonctionnaire",
+      "dateEntree": "17/09/2014",
+      "responsabilites": [
+        "Responsable de la Licence Informatique",
+        "Directeur du Centre de Calcul"
+      ],
+      "permanence": "Mercredi 10h00-13h00",
+      "recherche": "Apprentissage automatique, Cybersécurité, Informatique décisionnelle",
+      "publications": 22
+    },
+    {
+      "id": "9",
+      "nom": "Ndongo",
+      "prenom": "Marthe",
+      "titre": "Professeure Titulaire",
+      "discipline": "Sciences Économiques",
+      "departement": "Économie et Management",
+      "faculte": "Faculté des Sciences Économiques et de Gestion (FSEG)",
+      "cours": [
+        "Macroéconomie (L2)",
+        "Économie du Développement (L3)",
+        "Économétrie Avancée (M1)",
+        "Séminaire Doctoral d'Économie (D)"
+      ],
+      "salle": "FSEG, Bureau 210",
+      "horaires": {
+        "lundi": "8h00-10h00 (Amphi FSEG1)",
+        "mardi": "10h00-12h00 (Amphi FSEG1), 14h00-16h00 (Salle TD FSEG3)",
+        "jeudi": "8h00-10h00 (Amphi FSEG1)",
+        "vendredi": "14h00-17h00 (Salle TD FSEG3)"
+      },
+      "email": "m.ndongo@univ-yaounde2.cm",
+      "telephone": "+237 675432198",
+      "grade": "Professeur de Classe Exceptionnelle",
+      "statut": "Fonctionnaire",
+      "dateEntree": "07/09/2001",
+      "responsabilites": [
+        "Doyenne de la FSEG",
+        "Directrice du Laboratoire d'Économie Appliquée"
+      ],
+      "permanence": "Mercredi 14h00-17h00",
+      "recherche": "Politiques économiques africaines, Économie informelle, Développement durable",
+      "publications": 61
+    },
+    {
+      "id": "10",
+      "nom": "Eyenga",
+      "prenom": "Joseph",
+      "titre": "Professeur Titulaire",
+      "discipline": "Philosophie",
+      "departement": "Philosophie",
+      "faculte": "Faculté des Arts, Lettres et Sciences Humaines (FALSH)",
+      "cours": [
+        "Histoire de la Philosophie (L1)",
+        "Éthique et Politique (L3)",
+        "Épistémologie (M1)",
+        "Philosophie Africaine (M2)"
+      ],
+      "salle": "Bloc C, Bureau 401",
+      "horaires": {
+        "lundi": "10h00-12h00 (Amphi 200)",
+        "mardi": "8h00-10h00 (Salle TD10)",
+        "mercredi": "14h00-16h00 (Amphi 200)",
+        "jeudi": "10h00-12h00 (Salle TD10), 14h00-16h00 (Bibliothèque FALSH)"
+      },
+      "email": "j.eyenga@univ-yaounde1.cm",
+      "telephone": "+237 680123456",
+      "grade": "Professeur de Classe Exceptionnelle",
+      "statut": "Fonctionnaire",
+      "dateEntree": "11/09/1995",
+      "responsabilites": [
+        "Vice-Doyen FALSH",
+        "Président du Conseil Scientifique"
+      ],
+      "permanence": "Vendredi 9h00-12h00",
+      "recherche": "Philosophie africaine, Ontologie, Pensée critique et traditionnelle",
+      "publications": 85
+    }
+  ],
+  "cours": [
+    {
+      "id": "1",
+      "intitule": "Programmation Orientée Objet",
+      "code": "INF2056",
+      "credits": 6,
+      "volumeHoraire": {
+        "CM": 30,
+        "TD": 15,
+        "TP": 15
+      },
+      "semestre": "S3",
+      "niveau": "L2"
+    },
+    {
+      "id": "2",
+      "intitule": "Microéconomie Avancée",
+      "code": "ECO3025",
+      "credits": 5,
+      "volumeHoraire": {
+        "CM": 30,
+        "TD": 20,
+        "TP": 0
+      },
+      "semestre": "S5",
+      "niveau": "L3"
+    },
+    {
+      "id": "3",
+      "intitule": "Biochimie Structurale",
+      "code": "BIO1032",
+      "credits": 4,
+      "volumeHoraire": {
+        "CM": 24,
+        "TD": 12,
+        "TP": 24
+      },
+      "semestre": "S2",
+      "niveau": "L1"
+    },
+    {
+      "id": "4",
+      "intitule": "Analyse Mathématique",
+      "code": "MAT1018",
+      "credits": 6,
+      "volumeHoraire": {
+        "CM": 36,
+        "TD": 24,
+        "TP": 0
+      },
+      "semestre": "S1",
+      "niveau": "L1"
+    },
+    {
+      "id": "5",
+      "intitule": "Littérature Africaine Contemporaine",
+      "code": "LET3045",
+      "credits": 5,
+      "volumeHoraire": {
+        "CM": 30,
+        "TD": 15,
+        "TP": 0
+      },
+      "semestre": "S5",
+      "niveau": "L3"
+    },
+    {
+      "id": "6",
+      "intitule": "Droit Constitutionnel Comparé",
+      "code": "DRT2037",
+      "credits": 5,
+      "volumeHoraire": {
+        "CM": 36,
+        "TD": 12,
+        "TP": 0
+      },
+      "semestre": "S4",
+      "niveau": "L2"
+    },
+    {
+      "id": "7",
+      "intitule": "Méthodes Statistiques pour la Recherche",
+      "code": "STA4012",
+      "credits": 8,
+      "volumeHoraire": {
+        "CM": 40,
+        "TD": 20,
+        "TP": 20
+      },
+      "semestre": "S7",
+      "niveau": "M1"
+    },
+    {
+      "id": "8",
+      "intitule": "Physique Quantique",
+      "code": "PHY3024",
+      "credits": 6,
+      "volumeHoraire": {
+        "CM": 30,
+        "TD": 20,
+        "TP": 10
+      },
+      "semestre": "S6",
+      "niveau": "L3"
+    },
+    {
+      "id": "9",
+      "intitule": "Techniques Avancées de Génie Civil",
+      "code": "GCI4036",
+      "credits": 7,
+      "volumeHoraire": {
+        "CM": 36,
+        "TD": 12,
+        "TP": 24
+      },
+      "semestre": "S8",
+      "niveau": "M1"
+    },
+    {
+      "id": "10",
+      "intitule": "Séminaire de Recherche en Philosophie",
+      "code": "PHI5018",
+      "credits": 10,
+      "volumeHoraire": {
+        "CM": 50,
+        "TD": 20,
+        "TP": 0
+      },
+      "semestre": "S9",
+      "niveau": "M2"
+    }
+  ],
+  "salles": [
+    {
+      "id": "1",
+      "numero": "A-101",
+      "batiment": "Bloc A",
+      "etage": "Rez-de-chaussée",
+      "campus": "Campus Principal",
+      "type": "Salle de TD"
+    },
+    {
+      "id": "2",
+      "numero": "B-305",
+      "batiment": "Bloc B",
+      "etage": "3ème étage",
+      "campus": "Campus Principal",
+      "type": "Salle de cours"
+    },
+    {
+      "id": "3",
+      "numero": "AMPHI-300",
+      "batiment": "Bâtiment Central",
+      "etage": "Rez-de-chaussée",
+      "campus": "Campus Principal",
+      "type": "Amphithéâtre"
+    },
+    {
+      "id": "4",
+      "numero": "LAB-204",
+      "batiment": "Bloc Sciences",
+      "etage": "2ème étage",
+      "campus": "Campus Sciences",
+      "type": "Laboratoire de chimie"
+    },
+    {
+      "numero": "INFO-102",
+      "batiment": "Centre Informatique",
+      "etage": "1er étage",
+      "campus": "Campus Principal",
+      "type": "Laboratoire",
+      "id": "5"
+    },
+    {
+      "numero": "C-412",
+      "batiment": "Bloc C",
+      "etage": "4ème étage",
+      "campus": "Campus Annexe",
+      "type": "Amphithéâtre",
+      "id": "6"
+    },
+    {
+      "id": "7",
+      "numero": "AMPHI-500",
+      "batiment": "Bâtiment des Lettres",
+      "etage": "Rez-de-chaussée",
+      "campus": "Campus Lettres",
+      "type": "Amphithéâtre"
+    },
+    {
+      "id": "8",
+      "numero": "BIO-108",
+      "batiment": "Département de Biologie",
+      "etage": "1er étage",
+      "campus": "Campus Sciences",
+      "type": "Laboratoire de biologie"
+    },
+    {
+      "id": "9",
+      "numero": "D-201",
+      "batiment": "Bloc D",
+      "etage": "2ème étage",
+      "campus": "Campus Principal",
+      "type": "Salle de cours"
+    },
+    {
+      "id": "10",
+      "numero": "LANG-305",
+      "batiment": "Centre de Langues",
+      "etage": "3ème étage",
+      "campus": "Campus Lettres",
+      "type": "Laboratoire de langues"
+    },
+    {
+      "id": "f910",
+      "numero": "C4",
+      "batiment": "D",
+      "etage": "2 etage",
+      "campus": "principale",
+      "type": "Salle de cours"
+    }
+  ],
+  "presences": [
+    {
+      "id": "1",
+      "date": "2025-04-25",
+      "cours": {
+        "code": "INF2056",
+        "intitule": "Programmation Orientée Objet",
+        "niveau": "L2",
+        "semestre": "S3"
+      },
+      "enseignant": {
+        "email": "jp.mbarga@univ-yaounde1.cm",
+        "nom": "Mbarga",
+        "prenom": "Jean-Paul"
+      },
+      "salle": {
+        "numero": "A-101",
+        "batiment": "Bloc A",
+        "type": "Salle de TD"
+      },
+      "classe": "GL A",
+      "etudiants": [
+        {
+          "matricule": 45612,
+          "present": true
+        },
+        {
+          "matricule": 56218,
+          "present": true
+        },
+        {
+          "matricule": 67321,
+          "present": false
+        },
+        {
+          "matricule": 53497,
+          "present": true
+        },
+        {
+          "matricule": 34567,
+          "present": false
+        },
+        {
+          "matricule": 125,
+          "present": true
+        }
+      ]
+    }
+  ]
+}
